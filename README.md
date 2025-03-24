@@ -20,6 +20,7 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/Parichaymandal/GPSMapping
 cd GPSMapping
+```
 
 ### 3. Setup Environment Variables
 Create a `.env` file in the root directory with the following content:
@@ -40,7 +41,8 @@ To run the app with Docker, follow these steps:
 
 2. Build and start the containers using the following command:
    ```bash
-   docker-compose up --build```
+   docker-compose up --build
+   ```
 
 
 ### Access the application:
@@ -51,6 +53,7 @@ Once the containers are up and running, you can access the application at the fo
 ### To stop the services:
 To stop and remove the containers, run the following command:
 ```bash
-docker-compose down```
+docker-compose down
+```
 
 
